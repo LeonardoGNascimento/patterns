@@ -4,5 +4,5 @@ namespace Src\strategy\Interface;
 
 interface IStrategy
 {
-    public function start();
+    public function start(): string;
 }

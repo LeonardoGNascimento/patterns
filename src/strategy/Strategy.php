@@ -11,7 +11,7 @@ class Strategy implements IStrategy
     ) {
     }
 
-    public function start()
+    public function start(): string
     {
         return $this->handle->start();
     }

@@ -6,7 +6,7 @@ use src\strategy\Interface\IStrategy;
 
 class Log implements IStrategy
 {
-    public function start()
+    public function start(): string
     {
         return 'log';
     }
