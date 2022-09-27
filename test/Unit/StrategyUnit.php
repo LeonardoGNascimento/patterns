@@ -9,26 +9,25 @@ use src\strategy\Strategy;
 
 class StrategyUnit extends TestCase
 {
-
-    protected function setUp(): void
+    public function matchStrategy(string $strategy)
     {
-        $this->strategyArray = [
+        return match ($strategy) {
             'texto' => new Strategy(new Texto()),
             'log' => new Strategy(new Log())
-        ];
+        };
     }
 
     public function testTexto()
     {
-        $strategy = $this->strategyArray['texto'];
-        
+        $strategy = $this->matchStrategy('texto');
+
         self::assertEquals('texto', $strategy->start());
     }
 
     public function testLog()
     {
-        $strategy = $this->strategyArray['log'];
-        
+        $strategy = $this->matchStrategy('log');
+
         self::assertEquals('log', $strategy->start());
     }
 }
