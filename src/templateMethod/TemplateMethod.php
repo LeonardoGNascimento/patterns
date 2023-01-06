@@ -6,8 +6,7 @@ abstract class TemplateMethod
 {
     public function soma($primeiroNumero, $segundoNumero)
     {
-        $segundoNumero = $this->multiplicar($segundoNumero);
-        return $primeiroNumero + $segundoNumero;
+        return $primeiroNumero + $this->multiplicar($segundoNumero);;
     }
 
     abstract public function multiplicar($numero);
