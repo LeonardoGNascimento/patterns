@@ -19,7 +19,6 @@ class StateTest extends TestCase
         self::assertEquals($estado->verificarEstado(), 'Em aprovação');
         self::assertInstanceOf(EmAprovacao::class, $estado->estado);
     }
-
     public function testAvancaParaProximaEtapa()
     {
         $estado = new State();
