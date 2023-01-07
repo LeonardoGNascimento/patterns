@@ -1,9 +1,9 @@
 <?php
 
-namespace src\state\estados;
+namespace src\comportamentais\state\estados;
 
 use Exception;
-use src\state\State;
+use src\comportamentais\state\State;
 
 abstract class Estados
 {

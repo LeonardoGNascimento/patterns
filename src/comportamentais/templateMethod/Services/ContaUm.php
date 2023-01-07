@@ -1,8 +1,8 @@
 <?php
 
-namespace src\templateMethod\Services;
+namespace src\comportamentais\templateMethod\Services;
 
-use src\templateMethod\TemplateMethod;
+use src\comportamentais\templateMethod\TemplateMethod;
 
 class ContaUm extends TemplateMethod
 {

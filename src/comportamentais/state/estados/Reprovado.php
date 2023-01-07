@@ -1,14 +1,14 @@
 <?php
 
-namespace src\state\estados;
+namespace src\comportamentais\state\estados;
 
-use src\state\State;
+use src\comportamentais\state\State;
 
-class Aprovado extends Estados
+class Reprovado extends Estados
 {
     public function retornaEstado()
     {
-        return 'Aprovado';
+        return 'Reprovado';
     }
 
     public function finaliza(State $state)

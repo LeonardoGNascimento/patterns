@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\strategy\Interface;
+namespace src\comportamentais\strategy\Interface;
 
 interface IStrategy
 {

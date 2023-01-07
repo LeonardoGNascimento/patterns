@@ -1,6 +1,6 @@
 <?php
 
-namespace src\templateMethod;
+namespace src\comportamentais\templateMethod;
 
 abstract class TemplateMethod
 {

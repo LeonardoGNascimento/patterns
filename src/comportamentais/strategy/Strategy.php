@@ -1,8 +1,8 @@
 <?php
 
-namespace src\strategy;
+namespace src\comportamentais\strategy;
 
-use src\strategy\Interface\IStrategy;
+use src\comportamentais\strategy\Interface\IStrategy;
 
 class Strategy implements IStrategy
 {

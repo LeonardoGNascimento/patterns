@@ -1,8 +1,8 @@
 <?php
 
-namespace src\strategy\Services;
+namespace src\comportamentais\strategy\Services;
 
-use src\strategy\Interface\IStrategy;
+use src\comportamentais\strategy\Interface\IStrategy;
 
 class Log implements IStrategy
 {

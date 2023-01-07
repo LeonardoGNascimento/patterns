@@ -4,17 +4,18 @@ namespace test\Unit;
 
 use Exception;
 use PHPUnit\Framework\TestCase;
-use src\state\estados\Aprovado;
-use src\state\estados\EmAprovacao;
-use src\state\estados\Finalizado;
-use src\state\estados\Reprovado;
-use src\state\State;
+use src\comportamentais\state\estados\Aprovado;
+use src\comportamentais\state\estados\EmAprovacao;
+use src\comportamentais\state\estados\Finalizado;
+use src\comportamentais\state\estados\Reprovado;
+use src\comportamentais\state\State;
 
 class StateTest extends TestCase
 {
     public function testEmAprovacao()
     {
         $estado = new State();
+        var_dump($estado->estado);
         self::assertEquals($estado->verificarEstado(), 'Em aprovação');
         self::assertInstanceOf(EmAprovacao::class, $estado->estado);
     }

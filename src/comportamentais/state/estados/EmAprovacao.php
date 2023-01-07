@@ -1,8 +1,8 @@
 <?php
 
-namespace src\state\estados;
+namespace src\comportamentais\state\estados;
 
-use src\state\State;
+use src\comportamentais\state\State;
 
 class EmAprovacao extends Estados
 {

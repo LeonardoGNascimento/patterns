@@ -1,9 +1,9 @@
 <?php
 
-namespace src\state;
+namespace src\comportamentais\state;
 
-use src\state\estados\EmAprovacao;
-use src\state\estados\Estados;
+use src\comportamentais\state\estados\EmAprovacao;
+use src\comportamentais\state\estados\Estados;
 
 class State
 {

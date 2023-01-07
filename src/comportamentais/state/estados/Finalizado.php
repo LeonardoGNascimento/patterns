@@ -1,8 +1,6 @@
 <?php
 
-namespace src\state\estados;
-
-use Exception;
+namespace src\comportamentais\state\estados;
 
 class Finalizado extends Estados
 {
